@@ -10,7 +10,11 @@ app.use(cors());
 const JWT_SECRET = 'sahara';
 
 // ─── DB CONNECTION ────────────────────────────────────────────────────────────
+<<<<<<< HEAD
 mongoose.connect('mongodb+srv://saharauser:saharauser123@cluster0.hf26jws.mongodb.net/')
+=======
+mongoose.connect('mongodb+srv://saharausersaharauser123@cluster0.hf26jws.mongodb.net/')
+>>>>>>> fdc970617d0b0d9f6ee0831ebc1fc2497feaa1d8
   .then(() => console.log('Database connected successfully'))
   .catch(err => console.error('Database connection error:', err));
 
