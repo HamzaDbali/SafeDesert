@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const cors = require('cors');
-const { Location } = require('../models/allshemas');
-const authentification = require('../models/Midelware');
+const { Location } = require('./models/allshemas');
+const authentification = require('./models/Midelware');
 require('../models/dbconnect');
 
 app.use(express.json());

@@ -2,12 +2,12 @@
 const express = require('express');
 const app = express();
 const bcrypt = require('bcrypt');
-const { User } = require('../models/allshemas');
+const { User } = require('./models/allshemas');
 const jwt = require('jsonwebtoken');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const crypto = require('crypto');
-const authentification = require('../models/Midelware')
+const authentification = require('./models/Midelware')
 require('../models/dbconnect');
 
 // Middleware
